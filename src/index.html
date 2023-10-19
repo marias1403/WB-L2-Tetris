@@ -7,7 +7,30 @@
   <title lang="ru">Архипова Мария, игра «Тетрис»</title>
   <link rel="stylesheet" type="text/css" href="./assets/styles/index.css">
 </head>
-<body>
-
+<body class="page">
+  <div class="page__container">
+    <header class="header page__header">
+      <h1 class="header__title">Тетрис</h1>
+    </header>
+    <main class="content page__content">
+      <section class="game content__section">
+        <div class="game__container"></div>
+        <div class="game__controls">
+          <div class="game__info">
+            <p class="game__text">очки:10</p>
+            <p class="game__text">Следующая фигура:</p>
+            <div class="game__next-wrapper"></div>
+          </div>
+          <button class="game__restart-button">
+            <img class="game__button-icon" src="./assets/img/redo_icon.svg" alt="Иконка рестарта" />
+            <span>Начать заново</span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer page__footer">
+      <p class="footer__text">Игра «Тетрис», Архипова Мария для WB</p>
+    </footer>
+  </div>
 </body>
 </html>

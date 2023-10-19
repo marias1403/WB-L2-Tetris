@@ -1,2 +1,23 @@
 @import url(../../vendor/normalize.css);
 @import url(../../vendor/fonts.css);
+
+@import url(./blocks/page/page.css);
+@import url(./blocks/page/__container/page__container.css);
+
+@import url(./blocks/header/__title/header__title.css);
+@import url(./blocks/page/__header/page__header.css);
+
+@import url(./blocks/page/__content/page__content.css);
+@import url(./blocks/content/__section/content__section.css);
+
+@import url(./blocks/game/game.css);
+@import url(./blocks/game/__container/game__container.css);
+@import url(./blocks/game/__controls/game__controls.css);
+@import url(./blocks/game/__info/game__info.css);
+@import url(./blocks/game/__text/game__text.css);
+@import url(./blocks/game/__restart-button/game__restart-button.css);
+@import url(./blocks/game/__button-icon/game__button-icon.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/page/__footer/page__footer.css);
+@import url(./blocks/footer/__text/footer__text.css);
