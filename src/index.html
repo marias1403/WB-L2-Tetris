@@ -2,10 +2,10 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="<%=require('./assets/img/favicon.svg')%>" type="image/x-icon">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title lang="ru">Архипова Мария, игра «Тетрис»</title>
-  <link rel="stylesheet" type="text/css" href="./assets/styles/index.css">
 </head>
 <body class="page">
   <div class="page__container">
@@ -22,7 +22,7 @@
             <div class="game__next-wrapper"></div>
           </div>
           <button class="game__restart-button">
-            <img class="game__button-icon" src="./assets/img/redo_icon.svg" alt="Иконка рестарта" />
+            <img class="game__button-icon" src="<%=require('./assets/img/redo_icon.svg')%>" alt="Иконка рестарта" />
             <span>Начать заново</span>
           </button>
         </div>
