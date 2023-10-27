@@ -12,6 +12,7 @@
 
 @import url(./blocks/game/game.css);
 @import url(./blocks/game/__container/game__container.css);
+@import url(./blocks/game/__next-wrapper/game__next-wrapper.css);
 @import url(./blocks/game/__controls/game__controls.css);
 @import url(./blocks/game/__info/game__info.css);
 @import url(./blocks/game/__text/game__text.css);

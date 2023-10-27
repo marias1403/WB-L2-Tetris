@@ -1,0 +1,11 @@
+.game__next-wrapper {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game__next-wrapper div {
+  height: 40px;
+  width: 40px;
+}
